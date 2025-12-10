@@ -29,7 +29,7 @@ conda install -c conda-forge r=4.3.0
 conda install -c conda-forge r-mclust
 ```
 
-Install `STCOGAT` from [Github](https://github.com/jxLiu-bio/DeepGFT).
+Install `STCOGAT` from [Github](https://github.com/SevensLab/STCOGAT).
 
 ```shell
 git clone https://github.com/SevensLab/STCOGAT.git
