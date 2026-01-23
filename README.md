@@ -73,7 +73,7 @@ We provide source codes for reproducing the STCOGAT analysis in the  `Tutorial` 
 + [Mouse olfactory bulb (MOB) clustering (Stereo-seq)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/MOB_Stereo-seq_Clustering.ipynb)
 + [Mouse primary visual cortex (VISp) clustering (STARmap)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/VISp_Clustering.ipynb)
 + [Mouse breast cancer batch effects correction (Visium)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/mouse_breast_Batch_effects.ipynb)
-+ [Human lymph node gene embedding (Visium)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/HLN_geneEmbed.ipynb)
++ [Human BRCA gene embedding (Visium)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/Human_BRCA_Gene.ipynb)
 
 ## Compared tools
 Tools that are compared include:
