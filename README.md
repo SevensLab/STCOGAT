@@ -73,6 +73,7 @@ pip install torch==2.7.0+cu128 torchvision==0.22.0+cu128 torchaudio==2.7.0+cu128
 ## Tutorial
 The `Tutorial/` folder contains example notebooks for reproducing the main STCOGAT analyses. These notebooks already provide complete workflows, including data loading, preprocessing, graph construction, model training, embedding extraction, clustering, metric calculation, and visualization.
 
++ [DLPFC clustering (Visium)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/DLPFC_Clustering_Tutorial.ipynb)
 + [Mouse olfactory bulb (MOB) clustering (Stereo-seq)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/MOB_Stereo-seq_Clustering.ipynb)
 + [Mouse primary visual cortex (VISp) clustering (STARmap)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/VISp_Clustering.ipynb)
 + [Mouse breast cancer batch effects correction (Visium)](https://github.com/SevensLab/STCOGAT/blob/master/Tutorial/mouse_breast_Batch_effects.ipynb)
