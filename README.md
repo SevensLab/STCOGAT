@@ -155,6 +155,7 @@ Tools that are compared include:
 - [SpaceFlow](https://github.com/hongleir/SpaceFlow)
 - [DeepGFT](https://github.com/jxLiu-bio/DeepGFT)
 - [STMGraph](https://github.com/binbin-coder/STMGraph)
+- [GASTON](https://github.com/raphael-group/GASTON)
 
 ## Download data
 The datasets used in this paper can be downloaded from [here](https://drive.google.com/drive/folders/1m4QlemN5GmKdR1gJHaUl_NMElKI-GNOq?usp=sharing)
