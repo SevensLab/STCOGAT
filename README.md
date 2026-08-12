@@ -1,12 +1,7 @@
 # STCOGAT: Spatial Transcriptomics Analysis via Co-Expression-Aware Graph Attention Autoencoder for Domain Identification
 STCOGAT constructs two networks: one is a gene co-expression network based on global gene correlations, while the other is a spot network that fuses spatial adjacency matrix derived from k-nearest neighbors (KNN) and the adjacency matrix representing expression similarity. First, STCOGAT employs a triple-view encoder to aggregate information from these two networks and the gene expression matrix to generate initial representations. Next, STCOGAT uses a graph attention encoder to generate gene embeddings (gene view). It also uses a graph attention encoder to model the spatial context on the spot graph, generating spot embeddings (spot view). Finally, STCOGAT's dual decoders reconstruct the gene network and gene expression profiles from the gene embeddings and spot embeddings, respectively. In addition, the edge attention mechanism dynamically prunes the spot graph to filter out noisy connections. STCOGAT also applies a multilayer perceptron (MLP) encoder to encode the intrinsic features of the spots, then concatenates both to generate the final spot embeddings. The learned latent representations are then utilized for downstream tasks, including spatial domain identification, batch effect correction, and multi-slice integration, facilitating the study of tissue heterogeneity.
 ![STCOGAT](https://github.com/SevensLab/STCOGAT/blob/master/flowchart.png)
-## OS requirements
 
-`STCOGAT` can run on Linux and Windows. The package has been tested on the following systems:
-
-- Linux: Ubuntu 25.04, NVIDIA GeForce RTX 5090 D, NVIDIA GeForce RTX 4090, CUDA 12.8
-- Windows: Windows 10, NVIDIA GeForce RTX 3080 Ti, CUDA 12.6
 
 ## Installation Guide
 
